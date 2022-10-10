@@ -122,40 +122,7 @@ A programming competition generally involves the host presenting a set of logica
                 </table>
         </@faqa>
     </div>
-    <div class="panel panel-default">
-        <@faqq id="cp5">
-                What are some good books to learn algorithms and data structures?
-        </@faqq>
-        <@faqa id="cp5">
-                You can get info on all the topics required from various sources online, but if you like all things in one place, maybe books are the way to go. Here are some useful books on algorithms and competitive programming:
-
-                <table class="table table-striped table-condensed">
-                    <thead>
-                        <tr>
-                            <th>Book</th><th>Comment</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <iframe style="width:150px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=codedrills-21&marketplace=amazon&region=IN&placement=0262533057&asins=0262533057&linkId=33a77abf6f30e19a913d64e46bf3c65a&show_border=true&link_opens_in_new_window=true"></iframe>
-                            </td>
-                            <td>
-                                Often called "CLRS" after the initials of the author, it is used as the algorithm reference at many colleges. Do attempt and solve the exercises to get the most out of this book.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=codedrills-20&marketplace=amazon&region=US&placement=B00FG8MNN8&asins=B00FG8MNN8&linkId=d59ca74bef1e30872192f024dbf0e948&show_border=true&link_opens_in_new_window=true"></iframe>
-                            </td>
-                            <td>
-                                Aimed specifically at competitive programmers, this book has a brief overview of each algorithm followed by a ton of practiceProblems on that topic.
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-        </@faqa>
-    </div>
+  
     <div class="panel panel-default">
         <@faqq id="cp6">
                 How do I learn a particular topic?
