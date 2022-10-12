@@ -5,7 +5,7 @@
     <div class="col-xs-12">
         <div class="alert alert-success" role="alert">
           <h4 class="alert-heading">We are now Open Source!</h4>
-         <p> CodeDrills recommender is now open source! Visit the  <a href ="https://github.com/CodeDrills-CD/codedrills-recommender">GitHub repository</a> to contribute or report issues and feature requests. </p>
+         < p> CodeDrills recommender is now open source! Visit the  <a href ="https://github.com/CodeDrills-CD/codedrills-recommender">GitHub repository</a> to contribute or report issues and feature requests. </p>
         </div>
     </div>
 </div>
