@@ -4,11 +4,8 @@
 <div class="row">
     <div class="col-xs-12">
         <div class="alert alert-success" role="alert">
-          <h4 class="alert-heading">We have launched!</h4>
-          <p> Hey there! We have launched our brand new codedrills site and have our own online judge now.
-          You can visit and start solving at <a href="https://codedrills.io/">codedrills.io</a>.
-          This site will remain at this new address <a href="https://recommender.codedrills.io">recommender.codedrills.io</a> and will continue to work as before.
-           The old address will redirect here. Write to <a href="mailto:hello@codedrills.io" target="_top">hello@codedrills.io</a> for feedback and concerns </p>
+          <h4 class="alert-heading">We are now Open Source!</h4>
+         <p> CodeDrills recommender is now open source! Visit the  <a href ="https://github.com/CodeDrills-CD/codedrills-recommender">GitHub repository</a> to contribute or report issues and feature requests. </p>
         </div>
     </div>
 </div>
