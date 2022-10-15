@@ -42,7 +42,6 @@
                         Resources <span class="caret"> </span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/bfscp" class="bfscp_title">bfs(competitive_programming)</a></li>
                         <li><a href="/resources/tips">Tips and Tricks</a></li>
 
                     </ul>
