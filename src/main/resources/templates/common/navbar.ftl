@@ -55,7 +55,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="navbar-brand" href="https://github.com/CodeDrills-CD/codedrills-recommender" target="_blank">
+                    <a class="navbar-brand" href="https://github.com/CodeDrills-CD/codedrills-recommender" target="_blank" rel="noopener noreferrer">
                         <span> <img alt="github-link" src="/images/github-logo.png" height="25" width="25"/></span>
                     </a>
                 </li>
