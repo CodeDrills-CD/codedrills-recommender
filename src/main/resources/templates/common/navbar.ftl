@@ -54,6 +54,11 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="navbar-brand" href="https://github.com/CodeDrills-CD/codedrills-recommender" target="_blank">
+                        <span> <img alt="github-link" src="/images/github-logo.png" height="25" width="25"/></span>
+                    </a>
+                </li>
                 <li> <div class="fb-like" data-href="https://code-drills.com" data-layout="button_count" data-action="recommend" data-size="large" data-show-faces="false" data-share="true"></div></li>
             </ul>
         </div><!-- /.navbar-collapse -->
