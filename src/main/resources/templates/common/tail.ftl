@@ -4,7 +4,6 @@
     <footer class="footer">
         <div class="text-center">
             <p class="text-muted">
-                <a href="/about">About</a> | 
                 <a href="/faq">FAQ</a>
             </p>
             <p class="text-muted">
