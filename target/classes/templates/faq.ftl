@@ -70,10 +70,10 @@ A programming competition generally involves the host presenting a set of logica
         </@faqq>
         <@faqa id="cp3">
                 <p>
-                    Any programming language that you are already familiar with is the best. Most sites support a huge range of languages. However if you are preparing for ICPC, C++ , Java or python are the best ones as they are the allowed languages at ICPC. Note that most sites usually have a time multiplier for Java and python as it is usually slower than C++.
+                    Any programming language that you are already familiar with is the best. Most sites support a huge range of languages. However if you are preparing for ICPC, C++ or Java are the best ones as they are the allowed languages at ICPC. Note that most sites usually have a time multiplier for Java as it is usually slower than C++.
                 </p>
                 <p>
-                    amongst C++ , Java and python ,any is fine. While C++ is known for its flexibility and ease of writing. Python is known for its shorter implementation and java for its powerful object oriented coding.
+                    Between C++ and Java any is fine. While C++ generally leads to shorter code, that should not be the main factor for choosing it. If you are using Java, make sure to use proper fast I/O so that your code does not take a long time to read the input. If you are still unsure, just try both of them and choose whichever you like better.
                 </p>
                 <p>
                     Whatever language you choose, first learn its basic syntax. Then focus on getting familiar with its standard library. Knowing the standard library really well is the key to fast and accurate implementation. Knowing that there is a library function for doing a particular task will help avoid wasting time by coding your own implementation.
@@ -117,10 +117,6 @@ A programming competition generally involves the host presenting a set of logica
                         <tr>
                             <td><a target="_blank" href="http://www.spoj.com/">Spoj</a></td>
                             <td>Spoj has a huge collection of practiceProblems on almost every area of competitive programming</td>
-                        </tr>
-                         <tr>
-                            <td> <a target="_blank" href="https://atcoder.jp/">Atcoder</a></td>
-                            <td> Atcoder has a huge collection of practiceProblems and are very educational to learn instrumental topics like dp</td>
                         </tr>
                     </tbody>
                 </table>
