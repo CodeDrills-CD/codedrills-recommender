@@ -4,7 +4,6 @@ import com.codedrills.model.analysis.AnalysisResult;
 import com.codedrills.model.analysis.ComparatorResult;
 import com.codedrills.model.exceptions.CodedrillsException;
 import com.codedrills.model.recommendation.Recommendation;
-import com.codedrills.service.BFSCPService;
 import com.codedrills.service.ComparatorService;
 import com.codedrills.service.ProfileService;
 import com.codedrills.service.contests.ContestsService;
@@ -20,8 +19,6 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
-import java.time.ZoneId;
-import java.util.Optional;
 import java.util.TimeZone;
 
 @Controller
@@ -39,8 +36,6 @@ public class CodeDrillsController {
   private RecommenderService recommenderService;
   @Autowired
   private ComparatorService comparatorService;
-  @Autowired
-  private BFSCPService bfscpService;
 
   @SuppressWarnings("SameReturnValue")
   @ResponseBody
@@ -171,22 +166,6 @@ public class CodeDrillsController {
     ModelAndView modelAndView = newModelAndView();
     modelAndView.setViewName(String.format("content/tips/%s", tip));
 
-    return modelAndView;
-  }
-
-  @GetMapping("/bfscp")
-  public ModelAndView bfscp() {
-    ModelAndView modelAndView = newModelAndView();
-    modelAndView.setViewName("bfscp");
-    modelAndView.addObject("levels", bfscpService.getLevels());
-    return modelAndView;
-  }
-
-  @GetMapping("/bfscp/modules/{moduleId}")
-  public ModelAndView bfscpModule(@PathVariable String moduleId) {
-    ModelAndView modelAndView = newModelAndView();
-    modelAndView.setViewName("bfscp_module");
-    modelAndView.addObject("module", bfscpService.getModule(moduleId));
     return modelAndView;
   }
 

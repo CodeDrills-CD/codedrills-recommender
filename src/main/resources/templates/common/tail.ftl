@@ -4,11 +4,10 @@
     <footer class="footer">
         <div class="text-center">
             <p class="text-muted">
-                <a href="/about">About</a> | 
                 <a href="/faq">FAQ</a>
             </p>
             <p class="text-muted">
-                <i class="fa fa-copyright"></i> ${.now?string('yyyy')} Codedrills Education Private Limited
+                Supported by <a href="https://codedrills.io/" target="_blank" rel="noopener noreferrer">CodeDrills</a>
             </p>
         </div>
     </footer>

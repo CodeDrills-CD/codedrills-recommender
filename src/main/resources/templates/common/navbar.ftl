@@ -42,7 +42,6 @@
                         Resources <span class="caret"> </span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/bfscp" class="bfscp_title">bfs(competitive_programming)</a></li>
                         <li><a href="/resources/tips">Tips and Tricks</a></li>
 
                     </ul>
@@ -55,6 +54,11 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="navbar-brand" href="https://github.com/CodeDrills-CD/codedrills-recommender" target="_blank" rel="noopener noreferrer">
+                        <span> <img alt="github-link" src="/images/github-logo.png" height="25" width="25"/></span>
+                    </a>
+                </li>
                 <li> <div class="fb-like" data-href="https://code-drills.com" data-layout="button_count" data-action="recommend" data-size="large" data-show-faces="false" data-share="true"></div></li>
             </ul>
         </div><!-- /.navbar-collapse -->
