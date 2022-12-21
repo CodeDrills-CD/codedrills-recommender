@@ -36,7 +36,7 @@ check "Tag"
 
 
 # copy the created jar file
-sudo cp target/code-drills.jar /var/codedrills-recommender/
+sudo cp target/code-drills.jar /var/code-drills/
 check "Copying jar"
 
 # stop currently running service
