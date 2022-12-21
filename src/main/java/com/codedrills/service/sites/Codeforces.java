@@ -30,10 +30,10 @@ public class Codeforces extends AbstractSiteService {
   public final static List<Integer> slrs = Arrays.asList(683, 470, 188, 153, 130, 100, 72, 64);
   public final static List<String> blacklistedHandles = Arrays.asList("vjudge1", "vjudge2", "vjudge3", "vjudge4", "vjudge5");
 
-  private final static String PROBLEM_SET_URL = "http://codeforces.com/api/problemset.problems";
-  private final static String PROBLEM_URL = "http://codeforces.com/problemset/problem/%s/%s";
-  private final static String USER_STATUS_URL = "http://codeforces.com/api/user.status?handle=%s&from=%d&count=%d";
-  private final static String USER_INFO_URL = "http://codeforces.com/api/user.info?handles=%s";
+  private final static String PROBLEM_SET_URL = "https://codeforces.com/api/problemset.problems";
+  private final static String PROBLEM_URL = "https://codeforces.com/problemset/problem/%s/%s";
+  private final static String USER_STATUS_URL = "https://codeforces.com/api/user.status?handle=%s&from=%d&count=%d";
+  private final static String USER_INFO_URL = "https://codeforces.com/api/user.info?handles=%s";
   private final static int MAX_SUB_FETCH_COUNT = 3000;
   private final static int MAX_SUB_COUNT = 5 * MAX_SUB_FETCH_COUNT;
 

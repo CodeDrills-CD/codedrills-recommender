@@ -36,8 +36,7 @@ check "Tag"
 
 
 # copy the created jar file
-sudo cp target/code-drills.jar /var/code-drills/
-sudo cp code-drills.conf /var/code-drills/
+sudo cp target/code-drills.jar /var/codedrills-recommender/
 check "Copying jar"
 
 # stop currently running service
@@ -49,13 +48,13 @@ sudo /etc/init.d/code-drills start
 check "Starting service"
 
 # sleep a bit
-echo "Sleeping for 20 seconds"
-sleep 20
+echo "Sleeping for 60 seconds"
+sleep 60
 check "Sleeping"
 
 # ping the site
 echo "pinging for status"
-response=`curl www.code-drills.com/status`
+response=`curl https://recommender.codedrills.io/status`
 if [ "$response" != "OK" ]; then
     echo "Status not OK"
     exit -1
