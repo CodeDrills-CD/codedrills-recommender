@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
+    <!--  Path where the logs are stored  -->
+    <property name="LOGS" value="/var/code-drills/logs" />
+
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <!-- Log message format -->
         <encoder>
-            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern>%d{dd MMM yyyy HH:mm:ss.SSS, UTC} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
     <!-- Need appender to write to file -->
-    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!-- Name of the file where the log messages are written -->
-        <file>/var/log/code-drills/code-drills.log</file>
+        <file>${LOGS}/application.log</file>
         <encoder>
-            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern>%d{dd MMM yyyy HH:mm:ss.SSS, UTC} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily and retain logs for 1 month -->
+            <fileNamePattern>
+                ${LOGS}/archived/application.%d{yyyy-MM-dd, UTC}.log
+            </fileNamePattern>
+            <maxHistory>
+                30
+            </maxHistory>
+        </rollingPolicy>
     </appender>
 
     <!-- Setting the root level of logging to INFO -->
     <root level="info">
-        <appender-ref ref="FILE" />
+        <appender-ref ref="ROLLING_FILE" />
         <appender-ref ref="CONSOLE" />
     </root>
 </configuration>
